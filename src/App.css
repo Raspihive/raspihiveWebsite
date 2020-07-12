@@ -5,11 +5,138 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .somethingcool {
+  animation: App-logo-einsfade infinite 5s linear;
+  z-index: 5;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    z-index: 1;
+    position: absolute;
+  }
+}
+.rahmen-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rahmen-logo {
+  animation: App-logo-spin infinite 15s linear;
+  z-index: 3;
+  }
+}
+
+.eins-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .eins-logo {
+  animation: App-logo-eins infinite 1.5s linear;
+  z-index: 0;
+  }
+}
+
+.zwei-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .zwei-logo {
+  animation: App-logo-zwei infinite 15s linear;
+  z-index: 0;
+  }
+}
+
+.drei-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .drei-logo {
+  animation: App-logo-drei infinite 15s linear;
+  z-index: 0;
+  }
+}
+
+.vier-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .vier-logo {
+  animation: App-logo-vier infinite 15s linear;
+  z-index: 0;
+  }
+}
+.einsfade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .einsfade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3s;
+  z-index: 0;
+  }
+}
+
+.zweifade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .zweifade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.1s;
+  z-index: 0;
+  }
+}
+
+.dreifade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dreifade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.2s;
+  z-index: 0;
+  }
+}
+
+.vierfade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .vierfade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.1s;
+  z-index: 0;
   }
 }
 
@@ -29,10 +156,44 @@
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
 }
+
+@keyframes App-logo-eins {
+}
+
+@keyframes App-logo-zwei {
+
+} 
+
+@keyframes App-logo-drei {
+
+} 
+
+@keyframes App-logo-vier {
+ 
+} 
+@keyframes App-logo-einsfade {
+    0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+@keyframes App-logo-zweifade {
+    0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+@keyframes App-logo-dreifade {
+    0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+@keyframes App-logo-vierfade {
+    0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
