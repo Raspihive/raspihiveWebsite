@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.c18a58d0.chunk.js",
-    "main.js.map": "/static/js/main.c18a58d0.chunk.js.map",
+    "main.css": "/static/css/main.487840a5.chunk.css",
+    "main.js": "/static/js/main.b45569c8.chunk.js",
+    "main.js.map": "/static/js/main.b45569c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.085fb970.js",
     "runtime-main.js.map": "/static/js/runtime-main.085fb970.js.map",
-    "static/js/2.7fa9e3c9.chunk.js": "/static/js/2.7fa9e3c9.chunk.js",
-    "static/js/2.7fa9e3c9.chunk.js.map": "/static/js/2.7fa9e3c9.chunk.js.map",
+    "static/js/2.0f00d5d4.chunk.js": "/static/js/2.0f00d5d4.chunk.js",
+    "static/js/2.0f00d5d4.chunk.js.map": "/static/js/2.0f00d5d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6a14be1d0063f4b7712355576713558e.js": "/precache-manifest.6a14be1d0063f4b7712355576713558e.js",
+    "precache-manifest.fb4350c3244bd056bac4a7d5d09b06f5.js": "/precache-manifest.fb4350c3244bd056bac4a7d5d09b06f5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.7fa9e3c9.chunk.js.LICENSE.txt": "/static/js/2.7fa9e3c9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.487840a5.chunk.css.map": "/static/css/main.487840a5.chunk.css.map",
+    "static/js/2.0f00d5d4.chunk.js.LICENSE.txt": "/static/js/2.0f00d5d4.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/static/media/1.8821c68b.svg",
+    "static/media/2.svg": "/static/media/2.a0c5a62a.svg",
+    "static/media/3.svg": "/static/media/3.2e68c2fe.svg",
+    "static/media/4.svg": "/static/media/4.44f0b897.svg",
+    "static/media/baselogo.svg": "/static/media/baselogo.2fef4823.svg",
+    "static/media/dreifade.svg": "/static/media/dreifade.b5fc06fb.svg",
+    "static/media/einsfade.svg": "/static/media/einsfade.61c863a2.svg",
+    "static/media/rahmen.svg": "/static/media/rahmen.c2c1e31c.svg",
+    "static/media/vierfade.svg": "/static/media/vierfade.941380b8.svg",
+    "static/media/zweifade.svg": "/static/media/zweifade.9cf0b3dd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.085fb970.js",
-    "static/js/2.7fa9e3c9.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c18a58d0.chunk.js"
+    "static/js/2.0f00d5d4.chunk.js",
+    "static/css/main.487840a5.chunk.css",
+    "static/js/main.b45569c8.chunk.js"
   ]
 }
