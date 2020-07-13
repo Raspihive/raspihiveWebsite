@@ -1,9 +1,11 @@
+
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   z-index: 1;
 }
@@ -22,7 +24,7 @@
   }
 }
 .baselogofüllung-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -33,7 +35,7 @@
   }
 }
 .rahmen-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -46,7 +48,7 @@
 }
 
 .eins-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -59,7 +61,7 @@
 }
 
 .zwei-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -72,7 +74,7 @@
 }
 
 .drei-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -85,7 +87,7 @@
 }
 
 .vier-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -97,7 +99,7 @@
   }
 }
 .einsfade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -111,7 +113,7 @@
 }
 
 .zweifade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -125,7 +127,7 @@
 }
 
 .dreifade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -139,7 +141,7 @@
 }
 
 .vierfade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -153,7 +155,7 @@
 }
 
 .fünffade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -167,7 +169,7 @@
 }
 
 .sechsfade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -181,7 +183,7 @@
 }
 
 .siebenfade-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
   position: absolute;
 }
@@ -197,12 +199,35 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.infobox {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
   color: white;
 }
 
