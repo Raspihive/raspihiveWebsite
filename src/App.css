@@ -21,15 +21,27 @@
     position: absolute;
   }
 }
+.baselogofüllung-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .baselogofüllung-logo {
+  z-index: 0;
+  }
+}
 .rahmen-logo {
   height: 40vmin;
   pointer-events: none;
+  position: absolute;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .rahmen-logo {
-  animation: App-logo-spin infinite 15s linear;
-  z-index: 3;
+
+  z-index: 2;
   }
 }
 
@@ -140,6 +152,49 @@
   }
 }
 
+.fünffade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fünffade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.3s;
+  z-index: 0;
+  }
+}
+
+.sechsfade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sechsfade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.4s;
+  z-index: 0;
+  }
+}
+
+.siebenfade-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .siebenfade-logo {
+  animation: App-logo-einsfade infinite 5s linear;
+  animation-delay: 3.5s;
+  z-index: 0;
+  }
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -197,3 +252,24 @@
   15% { opacity: 0; }
   100% { opacity: 0; }
 } 
+@keyframes App-logo-fünffade {
+  0% { opacity: 1; }
+10% { opacity: 1; }
+15% { opacity: 0; }
+100% { opacity: 0; }
+} 
+
+@keyframes App-logo-sechsfade {
+  0% { opacity: 1; }
+10% { opacity: 1; }
+15% { opacity: 0; }
+100% { opacity: 0; }
+} 
+@keyframes App-logo-siebenfade {
+  0% { opacity: 1; }
+10% { opacity: 1; }
+15% { opacity: 0; }
+100% { opacity: 0; }
+} 
+
+
