@@ -18,7 +18,7 @@ import './App.css';
 
 function Logo() {
   return (
-    <div className="App">
+    <div className="logo">
 
       <header className="App-header">   
       

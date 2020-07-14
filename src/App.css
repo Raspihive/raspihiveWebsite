@@ -17,6 +17,7 @@
  background-color: transparent;
  z-index: 5;
  text-align: right;
+ margin-top: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -208,18 +209,20 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: -50px;
+  z-index: 1;
 }
 
 .App-body {
   background-color: #282c34;
-  min-height: 70vh;
+  min-height: 44vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,7 +232,6 @@
 }
 
 .infobox {
-  background-color: #282c34;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -240,6 +242,14 @@
   color: white;
 }
 
+.logo {
+  margin-top: 200px;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
 .App-link {
   color: #61dafb;
 }

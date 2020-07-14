@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Homescreen from './Screens/home'
 import Downloadscreen from './Screens/download'
+import Aboutscreen from './Screens/about'
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,40 +12,34 @@ import {
 
 export default function Navigation() {
   return (
-   <div class="Navbar">
+   
     <Router >
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home </Link> \t\t
+         <header className="Navbar">
           
-            <Link to="/about">About </Link> \t\t
+            <Link to="/" style={styles.home}>HOME </Link>
           
-            <Link to="/download">Download </Link> \t\t\t\t\t\t\t\t
-          </li>
-        </ul>
-
-        {/*
-          A <Switch> looks through all its children <Route>
-          elements and renders the first one whose path
-          matches the current URL. Use a <Switch> any time
-          you have multiple routes, but you want only one
-          of them to render at a time
-        */}
+            <Link to="/about" style={styles.about}>ABOUT </Link>
+          
+            <Link to="/download" style={styles.download}>DOWNLOAD </Link>
+            
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Homescreen />
           </Route>
           <Route path="/about">
-            <About />
+            <Aboutscreen />
           </Route>
           <Route path="/download">
-            <Download />
+            <Downloadscreen />
           </Route>
         </Switch>
-      </div>
+        </header>
+         <body>
+         </body>
+      
     </Router>
-    </div>
+   
+    
   );
 }
 
@@ -71,8 +66,36 @@ function Download() {
 function About() {
    return (
      <div>
-       <h2>About</h2>
+       <Aboutscreen />
      </div>
    );
  }
  
+ const styles = {};
+
+ styles.home = {
+   width: "100%",
+   fontSize: "26px",
+   textDecoration: 'none',
+   paddingRight: 30,
+   color:"white"
+ 
+ };
+
+ styles.about = {
+   width: "100%",
+   fontSize: "26px",
+   textDecoration: 'none',
+   paddingRight: 30,
+   color:"white",
+ 
+ };
+
+ styles.download = {
+   width: "100%",
+   fontSize: "26px",
+   textDecoration: 'none',
+   paddingRight: 120,
+   color:"white"
+
+ };
