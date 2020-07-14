@@ -11,21 +11,18 @@ import {
 
 export default function Navigation() {
   return (
+   <div class="Navbar">
     <Router >
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/download">Download</Link>
+            <Link to="/">Home </Link> \t\t
+          
+            <Link to="/about">About </Link> \t\t
+          
+            <Link to="/download">Download </Link> \t\t\t\t\t\t\t\t
           </li>
         </ul>
-
-        <hr />
 
         {/*
           A <Switch> looks through all its children <Route>
@@ -47,6 +44,7 @@ export default function Navigation() {
         </Switch>
       </div>
     </Router>
+    </div>
   );
 }
 
@@ -65,6 +63,7 @@ function Download() {
   return (
     <div>
         <Downloadscreen />
+        
    </div>
   );
 }
