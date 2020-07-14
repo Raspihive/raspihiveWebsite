@@ -10,6 +10,12 @@
   z-index: 1;
 }
 
+.Navbar {
+  height: 5vmin;
+  pointer-events: none;
+  z-index: 8;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .somethingcool {
   animation: App-logo-einsfade infinite 5s linear;
