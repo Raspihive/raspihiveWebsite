@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../logo';
 import '../App.css';
+import Skelett from '../Animation/Skelett.svg'
 
 
 
@@ -23,4 +24,6 @@ function Homescreen() {
 }
 
 export default Homescreen;
+
+
 
