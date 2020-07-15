@@ -3,7 +3,7 @@ import './App.css';
 import Homescreen from './Screens/home'
 import Downloadscreen from './Screens/download'
 import Aboutscreen from './Screens/about'
-import ContributeScreen from './Screens/contribute'
+import Contributescreen from './Screens/contribute'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +12,6 @@ import {
 } from "react-router-dom";
 import Logo from './logo';
 import Logosingle from './logoSingle.svg'
-import Contributescreen from "./Screens/contribute";
 
 export default function Navigation() {
   return (
