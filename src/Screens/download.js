@@ -8,7 +8,6 @@ function Downloadscreen() {
   return (
    <div >
       <header className="App-header">
-      <text>Download</text>
       </header>
       <body className="App-body"> 
       </body>

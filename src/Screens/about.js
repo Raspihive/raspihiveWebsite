@@ -8,7 +8,6 @@ function Aboutscreen() {
   return (
    <div >
       <header className="App-header">
-      <text>about</text>
       </header>
       <body className="App-body"> 
       </body>

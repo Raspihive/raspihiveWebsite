@@ -18,28 +18,24 @@ import './App.css';
 
 function Logo() {
   return (
-    <div className="logo">
-
-      <header className="App-header">   
+    <div>
       
-        <img src={baselogofüllung} className="baselogofüllung-logo" alt="baselogofüllung-logo" />
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src={eins} className="eins-logo" alt="eins-logo" />
-        <img src={zwei} className="zwei-logo" alt="zwei-logo" />
-        <img src={drei} className="drei-logo" alt="drei-logo" />
-        <img src={vier} className="vier-logo" alt="vier-logo" />
-        <img src={einsfade} className="einsfade-logo" alt="einsfade-logo" />
-        <img src={zweifade} className="zweifade-logo" alt="zweifade-logo" />
-        <img src={dreifade} className="dreifade-logo" alt="dreifade-logo" />
-        <img src={vierfade} className="vierfade-logo" alt="vierfade-logo" />
-        <img src={fünffade} className="fünffade-logo" alt="fünffade-logo" />
-        <img src={sechsfade} className="sechsfade-logo" alt="sechsfade-logo" />
-        <img src={siebenfade} className="siebenfade-logo" alt="siebenfade-logo" />
-        <img src={rahmen} className="rahmen-logo" alt="rahmen-logo" />
+        <img src={baselogofüllung} className="baselogofüllung-logo" />
+        <img src={logo} className="App-logo" />
+        <img src={eins} className="eins-logo" />
+        <img src={zwei} className="zwei-logo" />
+        <img src={drei} className="drei-logo" />
+        <img src={vier} className="vier-logo"/>
+        <img src={einsfade} className="einsfade-logo" />
+        <img src={zweifade} className="zweifade-logo" />
+        <img src={dreifade} className="dreifade-logo" />
+        <img src={vierfade} className="vierfade-logo" />
+        <img src={fünffade} className="fünffade-logo" />
+        <img src={sechsfade} className="sechsfade-logo" />
+        <img src={siebenfade} className="siebenfade-logo" />
+        <img src={rahmen} className="rahmen-logo" />
   
-        </header>
-   
-    </div>
+     </div>
     
   );
 }

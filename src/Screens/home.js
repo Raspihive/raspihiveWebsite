@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../logo';
 import '../App.css';
-import Skelett from '../Animation/Skelett.svg'
 
 
 
@@ -9,12 +8,10 @@ function Homescreen() {
   return (
    <div>
       <header className="App-header">
-         <Logo />
       </header>
-      <body className="App-body"> 
-      <div className="infobox">
-      100% Open Source! Yes, you read that right! Raspihive is built and run for the community, by the community.
-      <text>So that saying really is correct... The best things in life are free!</text>
+      <body className="App-body">
+      <div style={styles.infobox}>
+
       </div>
       </body>
    </div>
@@ -22,6 +19,20 @@ function Homescreen() {
     
   );
 }
+const styles = {};
+
+styles.infobox = {
+  width: "100%",
+  fontSize: "26px",
+  color:"white"
+
+};
+styles.skelett = {
+   width: "20%",
+   fontSize: "26px",
+   color:"white",
+ 
+ };
 
 export default Homescreen;
 
