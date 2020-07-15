@@ -10,8 +10,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Logo from './logo';
 import Logosingle from './logoSingle.svg'
+import Skelett from './Animation/SkelettSchräg.svg'
 
 export default function Navigation() {
   return (
@@ -19,7 +19,7 @@ export default function Navigation() {
 
          <header>
          
-           <img className="NavbarLogo" src={Logosingle} style={styles.logo}/><text style={styles.logotext}>HIVE</text>
+        <img className="NavbarLogo" src={Logosingle} style={styles.logo} alt='NavbarLogo'/><text style={styles.logotext}>HIVE</text>
            
            <div className="NavbarIcons">
               
@@ -30,6 +30,9 @@ export default function Navigation() {
             <Link to="/contribute" style={styles.contribute}>CONTRIBUTE </Link>
 
             <Link to="/download" style={styles.download}>DOWNLOAD </Link>
+
+          
+
         <Switch>
           <Route exact path="/">
             <Homescreen />
@@ -47,6 +50,9 @@ export default function Navigation() {
         </div>
         </header>
          <body>
+        <div className="infobox">
+          <img src={Skelett} style={styles.skelett} />
+        </div>
          </body>
       
     </Router>
@@ -139,5 +145,11 @@ styles.logotext = {
   color:"white",
   fontSize:"40px"
   
+};
+styles.skelett = {
+  width: "20%",
+  fontSize: "26px",
+  paddingLeft: "10px"
+
 };
 
