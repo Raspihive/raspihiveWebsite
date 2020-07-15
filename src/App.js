@@ -137,7 +137,7 @@ function About() {
  };
 
  styles.logo = {
-  width: "2%",
+  width: "33px",
   paddingLeft:"15%",
 
 };
