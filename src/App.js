@@ -154,7 +154,6 @@ styles.logotext = {
 styles.skelett = {
   width: "20%",
   fontSize: "26px",
-  paddingLeft: "10px"
-
+  paddingLeft: "10px",
 };
 

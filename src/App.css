@@ -17,6 +17,12 @@
  margin-top: -38px;
  text-align: right;
 }
+.content-contribute {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 1000px) {
   .menu {
   display: none !important;
