@@ -14,15 +14,20 @@
 
 .NavbarIcons {
  z-index: 5;
- margin-top: -40px;
+ margin-top: -38px;
  text-align: right;
+}
+@media (max-width: 1000px) {
+  .menu {
+  display: none !important;
+  }
 }
 
 .NavbarLogo {
   color: transparent;
   background-color: transparent;
   z-index: 6;
-  margin-top: 15px;
+  margin-top: 25px;
   text-align: left;
  }
 
@@ -223,7 +228,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-top: -70px;
+  margin-top: -85px;
   z-index: -2;
   position: relative
   
@@ -259,6 +264,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-einsfade {
     0% { opacity: 1; }

@@ -12,17 +12,20 @@ import {
 } from "react-router-dom";
 import Logosingle from './logoSingle.svg'
 import Skelett from './Animation/SkelettSchräg.svg'
+import Burger from './burgermenu'
 
 export default function Navigation() {
   return (
     <Router >
 
          <header>
-         
-        <img className="NavbarLogo" src={Logosingle} style={styles.logo} alt='NavbarLogo'/><text style={styles.logotext}>HIVE</text>
            
-           <div className="NavbarIcons">
-              
+         <Burger />
+            <img className="NavbarLogo" src={Logosingle} style={styles.logo} alt='NavbarLogo'/><text style={styles.logotext}>HIVE</text>
+           
+         <div className="NavbarIcons">
+
+             < div className="menu">
             <Link to="/" style={styles.home}>HOME </Link>
 
             <Link to="/about" style={styles.about}>ABOUT </Link>
@@ -30,7 +33,8 @@ export default function Navigation() {
             <Link to="/contribute" style={styles.contribute}>CONTRIBUTE </Link>
 
             <Link to="/download" style={styles.download}>DOWNLOAD </Link>
-
+               </div> 
+            
           
 
         <Switch>
@@ -49,6 +53,7 @@ export default function Navigation() {
         </Switch>
         </div>
         </header>
+
          <body>
         <div className="infobox">
           <img src={Skelett} style={styles.skelett} />
