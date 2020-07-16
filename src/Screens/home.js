@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-
+import desk from '../Images/desk.jpg'
+import deskHover from '../Images/desk-hover.svg'
 
 
 
@@ -10,6 +11,7 @@ function Homescreen() {
       <header className="App-header">
       </header>
       <body className="App-body">
+        <img src={desk} className="desk" alt="desk" />
       </body>
 
       
