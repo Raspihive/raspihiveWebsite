@@ -5,14 +5,14 @@ import './burgermenu.css';
 class burger extends React.Component {
     showSettings (event) {
         event.preventDefault();
-        
+
       }
 
   render () {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
 
-      <Menu className="bm-burger-bars" right width={ '100%' } >
+      <Menu right width={ '100%' } disableAutoFocus >
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contribute" className="menu-item" href="/contribute">Contribute</a>
@@ -21,6 +21,4 @@ class burger extends React.Component {
     );
   }
 }
-
-  
 export default burger

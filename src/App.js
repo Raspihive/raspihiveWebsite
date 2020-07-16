@@ -17,14 +17,13 @@ import Burger from './burgermenu'
 export default function Navigation() {
   return (
     <Router >
-
-         <header>
-           
          <Burger />
+         <header>
+         
             <img className="NavbarLogo" src={Logosingle} style={styles.logo} alt='NavbarLogo'/><text style={styles.logotext}>HIVE</text>
            
          <div className="NavbarIcons">
-
+    
              < div className="menu">
             <Link to="/" style={styles.home}>HOME </Link>
 
@@ -33,6 +32,7 @@ export default function Navigation() {
             <Link to="/contribute" style={styles.contribute}>CONTRIBUTE </Link>
 
             <Link to="/download" style={styles.download}>DOWNLOAD </Link>
+
                </div> 
             
           
