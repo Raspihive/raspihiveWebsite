@@ -12,8 +12,6 @@ function Contributescreen() {
       <body className="App-body"> 
       </body>
       <div className="content-contribute">
-
-        <Logo />
       
       <text>How can I help make Hive better?
             Its simply created for the users, by the users. There are no highly paid developers or poorly paid support 
