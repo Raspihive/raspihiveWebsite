@@ -1,24 +1,15 @@
 import React from "react";
-import Homescreen from './home'
-import Downloadscreen from './download'
-import Aboutscreen from './about'
-import Contributescreen from './contribute'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Wabe from "../Images/wabe.svg"
 
-
-export default function Footer() {
+export default function Hometext() {
   return (
-   <div style={{display: 'flex', justifyContent: 'center'}}>
-       <text style={styles.text}>
+   <view>
+       <text style={styles.textbox1}>
            Raspihive is a IoT wonder powered by IOTA.
            100% Open Source and free! 
        </text>
-   </div>
+       <img src={Wabe} style={styles.wabe} />
+   </view>
     
   );
 }
@@ -26,8 +17,21 @@ export default function Footer() {
 
 const styles = {};
 
-styles.text = {
+styles.textbox1 = {
   fontSize: "30px",
   color:"black",
   marginTop:"30px",
+  display: 'flex',
+  justifyContent: 'center'
 };
+
+styles.wabe = {
+    color:"black",
+    marginTop:"80px",
+    display: 'flex',
+    width: 200, 
+    height: 200,
+    flex: 1,
+    flexDirection: 'column',
+    flex: 1, flexDirection: 'row'   
+  };
