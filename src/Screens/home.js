@@ -1,34 +1,26 @@
 import React from 'react';
 import '../App.css';
 import desk from '../Images/desk.jpg'
-import deskHover from '../Images/desk-hover.svg'
-
+import deskhover from '../Images/desk-hover.png'
+import Hometext from './hometext'
 
 
 function Homescreen() {
   return (
    <div>
-      <header className="App-header">
+      <header>
       </header>
-      <body className="App-body">
+      <body>
+        <img src={deskhover} className="desk-hover" alt="desk-hover"/>
         <img src={desk} className="desk" alt="desk" />
       </body>
-
+      <Hometext />
       
    </div>
     
     
   );
 }
-const styles = {};
-
-styles.infobox = {
-  width: "100%",
-  fontSize: "26px",
-  color:"white",
-  backgroundColor:"black"
-
-};
 
 
 export default Homescreen;

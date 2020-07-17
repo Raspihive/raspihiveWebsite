@@ -13,6 +13,8 @@ import {
 import Logosingle from './logoSingle.svg'
 import Skelett from './Animation/SkelettSchräg.svg'
 import Burger from './burgermenu'
+import Footer from './Screens/footer'
+
 
 export default function Navigation() {
   return (
@@ -56,7 +58,8 @@ export default function Navigation() {
 
          <body>
         <div className="infobox">
-          <img src={Skelett} style={styles.skelett} />
+          <img src={Skelett} className="skelett" style={styles.skelett} />
+          <Footer />
         </div>
          </body>
       

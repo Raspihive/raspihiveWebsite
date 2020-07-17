@@ -12,7 +12,7 @@ class burger extends React.Component {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
 
-      <Menu right width={ '100%' } disableAutoFocus >
+      <Menu right width={ '100%' } disableAutoFocus>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contribute" className="menu-item" href="/contribute">Contribute</a>
