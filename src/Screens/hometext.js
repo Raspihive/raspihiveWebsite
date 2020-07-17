@@ -1,5 +1,6 @@
 import React from "react";
 import Wabe from "../Images/wabe.svg"
+import '../App.css';
 
 export default function Hometext() {
   return (
@@ -8,7 +9,8 @@ export default function Hometext() {
            Raspihive is a IoT wonder powered by IOTA.
            100% Open Source and free! 
        </text>
-       <img src={Wabe} style={styles.wabe} />
+       <img src={Wabe} style={styles.wabe}  />
+
    </view>
     
   );
@@ -22,7 +24,9 @@ styles.textbox1 = {
   color:"black",
   marginTop:"30px",
   display: 'flex',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  textAlign: 'center',
+  lineHeight: '60px'
 };
 
 styles.wabe = {
@@ -33,5 +37,5 @@ styles.wabe = {
     height: 200,
     flex: 1,
     flexDirection: 'column',
-    flex: 1, flexDirection: 'row'   
+    flex: 1, flexDirection: 'row',
   };

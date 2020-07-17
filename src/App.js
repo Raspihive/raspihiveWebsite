@@ -118,7 +118,6 @@ function About() {
  };
 
  styles.about = {
-   width: "100%",
    fontSize: "26px",
    textDecoration: 'none',
    paddingRight: 30,
@@ -127,7 +126,6 @@ function About() {
  };
 
  styles.contribute = {
-  width: "100%",
   fontSize: "26px",
   textDecoration: 'none',
   paddingRight: 30,
@@ -136,7 +134,6 @@ function About() {
 };
 
  styles.download = {
-   width: "100%",
    fontSize: "26px",
    textDecoration: 'none',
    paddingRight: "15%",
