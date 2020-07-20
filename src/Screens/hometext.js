@@ -9,7 +9,12 @@ export default function Hometext() {
            Raspihive is a IoT wonder powered by IOTA.
            100% Open Source and free! 
        </text>
-       <img src={Wabe} style={styles.wabe}  />
+
+       <div style={styles.content2} >
+       <img src={Wabe} style={styles.node}  />
+       <img src={Wabe} style={styles.module}  />
+       <img src={Wabe} style={styles.access}  />
+       </div>
 
    </view>
     
@@ -29,13 +34,28 @@ styles.textbox1 = {
   lineHeight: '60px'
 };
 
-styles.wabe = {
+styles.node = {
+  color:"black",
+  height: 200,
+  flex: 1, flexDirection: 'row',
+  marginTop:"auto"
+};
+
+  styles.module = {
     color:"black",
-    marginTop:"80px",
-    display: 'flex',
-    width: 200, 
     height: 200,
-    flex: 1,
-    flexDirection: 'column',
     flex: 1, flexDirection: 'row',
+    marginTop:"auto"
+  };
+
+  styles.access = {
+    color:"black",
+    height: 200,
+    flex: 1, flexDirection: 'row',
+    marginTop:"auto"
+  };
+
+  styles.content2 = {
+    justifyContent: 'center',
+    textAlign: 'center'
   };

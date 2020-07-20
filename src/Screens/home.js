@@ -14,6 +14,7 @@ function Homescreen() {
         <img src={deskhover} className="desk-hover" alt="desk-hover"/>
         <img src={desk} className="desk" alt="desk" />
       </body>
+
       <Hometext />
       
    </div>
