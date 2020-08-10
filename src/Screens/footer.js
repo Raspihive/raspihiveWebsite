@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer/footer.css';
 import Homescreen from './home'
 import Downloadscreen from './download'
 import Aboutscreen from './about'
@@ -14,21 +15,14 @@ import {
 export default function Footer() {
   return (
    <view>
-       <text style={styles.name}>Friends</text>
+       <div className="footer-content">
+        <text className="footer">Friends</text>
+        <text className="footer">About</text>
+        <text className="footer">Community</text>
+       </div>
    </view>
     
   );
 }
 
 
-const styles = {};
-
-styles.name = {
-  width: "100%",
-  fontSize: "26px",
-  textDecoration: 'none',
-  color:"white",
-  marginLeft:"70px",
-  
-
-};

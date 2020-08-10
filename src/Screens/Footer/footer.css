@@ -1,0 +1,16 @@
+.footer {
+  color: white;
+  font-size: 27px;
+  text-decoration: none;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.footer-content {
+  flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}

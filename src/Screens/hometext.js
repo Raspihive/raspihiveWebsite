@@ -11,9 +11,16 @@ export default function Hometext() {
        </text>
 
        <div style={styles.content2} >
-       <img src={Wabe} style={styles.node}  />
-       <img src={Wabe} style={styles.module}  />
-       <img src={Wabe} style={styles.access}  />
+      
+       <img alt="" src={Wabe} style={styles.node}  />
+        <text style={styles.textNode}>IOTA Node</text>
+      
+       <img alt="" src={Wabe} style={styles.module}  />
+        <text style={styles.textModule}>Expandable with Modules</text>
+
+       <img alt="" src={Wabe} style={styles.access}  />
+        <text style={styles.textAccess}>Accesspoint to the Tangle</text>
+       
        </div>
 
    </view>
@@ -38,7 +45,7 @@ styles.node = {
   color:"black",
   height: 200,
   flex: 1, flexDirection: 'row',
-  marginTop:"auto"
+  marginTop:"auto",
 };
 
   styles.module = {
@@ -57,5 +64,29 @@ styles.node = {
 
   styles.content2 = {
     justifyContent: 'center',
-    textAlign: 'center'
+    textAlign: 'center',
+    position: "relative"
   };
+
+styles.textNode = {
+  color: "black",
+  flex: 1, flexDirection: 'row',
+  marginTop: 85,
+  position:"absolute",
+ 
+};
+
+styles.textModule = {
+  color: "black",
+  flex: 1, flexDirection: 'row',
+  marginTop: 85,
+  position: "absolute",
+};
+
+styles.textAccess = {
+  color: "black",
+  flex: 1, flexDirection: 'row',
+  marginTop: 85,
+  position: "absolute"
+};
+
