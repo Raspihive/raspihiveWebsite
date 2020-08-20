@@ -25,12 +25,12 @@ const StyledNavItem = styled.div`
     transition: var(--transition);
     height: 100%;
     width: 100%;
-
+    border-radius: var(--radius);
     text-decoration: none;
 
     &:hover {
-      color: var(--black);
-      background-color: var(--light-50);
+      color: var(--white);
+      background-color: var(--primary);
     }
   }
   
