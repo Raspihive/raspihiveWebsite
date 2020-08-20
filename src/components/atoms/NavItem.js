@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+// M A I N   C O M P O N E N T
 const NavItem = ({children, linkTo}) => {
   return (
     <StyledNavItem>
@@ -12,6 +13,7 @@ const NavItem = ({children, linkTo}) => {
   )
 }
 
+// S T Y L E S
 const StyledNavItem = styled.div`
   a {
     display: flex;

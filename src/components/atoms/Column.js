@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// M A I N   C O M P O N E N T
 const Column = ({children, center}) => {
   return (
     <StyledColumn className={center && 'center'}>
@@ -9,6 +10,7 @@ const Column = ({children, center}) => {
   )
 }
 
+// S T Y L E S
 const StyledColumn = styled.div`
   width: calc(50% - 30px);
   margin: 0 30px 30px;

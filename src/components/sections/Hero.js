@@ -58,6 +58,7 @@ const StyledHero = styled.div`
     font-size: 20px;
     text-decoration: underline;
     transition: var(--transition);
+    outline: none;
     cursor: pointer;
     
     &:hover {
