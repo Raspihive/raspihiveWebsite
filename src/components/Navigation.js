@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logos/unser-logo.svg'
+
+// C O M P O N E N T S
+import Logo from './atoms/Logo'
 import Button from './atoms/Button'
 import NavItem from './atoms/NavItem'
 
+// M A I N   C O M P O N E N T 
 const Navigation = () => {
   return (
     <StyledNavigation>
-      <NavItem linkTo="/">
-        <img src={logo} alt='RaspiHive Logo'/>
-      </NavItem>
+      <Logo />
       <div className="menu">
         <NavItem linkTo="/about">About</NavItem>
         <NavItem linkTo="/contribute">Contribute</NavItem>
@@ -19,10 +20,7 @@ const Navigation = () => {
   )
 }
 
-
-
-
-
+// S T Y L E S
 const StyledNavigation = styled.div`
   height: 80px;
   width: 100%;
@@ -41,11 +39,12 @@ const StyledNavigation = styled.div`
 
   .menu {
     display: flex;
-    align-items: center;
+    align-items: stretch;
   }
   
   button {
     margin: 0 30px;
   }
   `
+
 export default Navigation
