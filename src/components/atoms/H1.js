@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const H1 = ({children}) => {
+const H1 = ({
+  children, 
+  color = 'var(--black)'
+}) => {
   return (
-    <StyledH1>
+    <StyledH1 style={{color: color}}>
       {children}
     </StyledH1>
   )
