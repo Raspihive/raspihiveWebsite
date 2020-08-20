@@ -11,12 +11,13 @@ import Button from '../atoms/Button'
 import bgImage from '../../assets/images/hero.jpg'
 
 
-
-const Hero = ({onClickBuy, onClickLearn}) => {
-
+// M A I N   C O M P O N E N T
+const Hero = ({
+  onClickBuy, 
+  onClickLearn
+}) => {
   return (
-    <StyledHero style={{backgroundImage: `url(${bgImage})`}}
-    >
+    <StyledHero style={{backgroundImage: `url(${bgImage})`}}>
       <Container>
         <Row>
           <Column>
