@@ -20,7 +20,7 @@ const Hero = ({onClickBuy, onClickLearn}) => {
       <Container>
         <Row>
           <Column>
-            <H1>Run your own IOTA Node with RaspiHive</H1>
+            <H1 color="var(--white)">Run your own IOTA Node with RaspiHive</H1>
             <Subtitle>Build your own Raspihive with our 
               <button 
                 onClick={onClickLearn}
