@@ -1,5 +1,5 @@
 import React from 'react'
-import './app.css'
+import './App.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,10 +7,10 @@ import {
 } from 'react-router-dom'
 
 // 🖥 S C R E E N S
-import Home from './Screens/Home'
-import About from './Screens/About'
-import Contribute from './Screens/Contribute'
-import Download from './Screens/Download'
+import Home from './Screens/home'
+import About from './Screens/about'
+import Contribute from './Screens/contribute'
+import Download from './Screens/download'
 
 // 🎁 C O M P O N E N T S
 import Navigation from './components/Navigation'
