@@ -18,7 +18,6 @@ const StyledColumn = styled.div`
   
   &.center {
     justify-content: center;
-
   }
 `
 
