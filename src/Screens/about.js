@@ -1,13 +1,13 @@
 import React from 'react'
 
-// C O M P O N E N T S
+// 🎁 C O M P O N E N T S
 import Page from '../components/atoms/Page'
 import Section from  '../components/atoms/Section'
 import Container from  '../components/atoms/Container'
 import H1 from  '../components/atoms/H1'
 import P from  '../components/atoms/P'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const About = () => {
   return (
     <Page>

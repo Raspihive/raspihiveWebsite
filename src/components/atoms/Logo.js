@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-// A S S E T S
+// 📸 A S S E T S
 import logo from '../../assets/logos/unser-logo.svg'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const Logo = () => {
   return (
     <StyledLogo>
@@ -16,7 +16,7 @@ const Logo = () => {
   )
 }
 
-// S T Y L E S
+// 🎨 S T Y L E S
 const StyledLogo = styled.div`
   margin-left: 25px;
   height: 80px;

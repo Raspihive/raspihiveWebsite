@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// C O M P O N E N T S
+// 🎁 C O M P O N E N T S
 import Logo from './atoms/Logo'
 import ButtonLink from './atoms/ButtonLink'
 import NavItem from './atoms/NavItem'
 
-// M A I N   C O M P O N E N T 
+// 💫 M A I N   C O M P O N E N T 
 const Navigation = () => {
   const [menuIsOpen, setMenuIsOpen] = React.useState(false)
 
@@ -40,14 +40,16 @@ const Navigation = () => {
   )
 }
 
-// S T Y L E S
+// 🎨 S T Y L E S
 const StyledNavigation = styled.div`
   --nav-height: 80px;
-  height: var(--nav-height);
-  width: 100%;
+  
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
+  height: var(--nav-height);
+  width: 100%;
   background-color: var(--white);
   display: flex;
   justify-content: space-between;

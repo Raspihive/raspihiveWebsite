@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const Button = ({
   children, 
   href,
@@ -21,7 +21,7 @@ const Button = ({
   )
 }
 
-// S T Y L E S
+// 🎨 S T Y L E S
 const StyledButtonLink = styled.a`
   display: inline-block;
   background-color: var(--primary);

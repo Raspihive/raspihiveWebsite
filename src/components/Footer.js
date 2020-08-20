@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// 💫 M A I N   C O M P O N E N T
 const Footer = () => {
   return (
     <StyledFooter>
@@ -11,6 +12,7 @@ const Footer = () => {
   )
 }
 
+// 🎨 S T Y L E S
 const StyledFooter = styled.div`
   flex-direction: row;
   

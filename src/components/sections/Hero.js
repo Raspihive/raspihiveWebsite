@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-//  C O M P O N E N T S
+// 🎁 C O M P O N E N T S
 import Container from '../atoms/Container'
 import Row from '../atoms/Row'
 import Column from '../atoms/Column'
@@ -10,8 +10,7 @@ import Subtitle from '../atoms/Subtitle'
 import Button from '../atoms/Button'
 import bgImage from '../../assets/images/hero.jpg'
 
-
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const Hero = ({
   onClickBuy, 
   onClickLearn
@@ -42,6 +41,7 @@ const Hero = ({
   )
 }
 
+// 🎨 S T Y L E S
 const StyledHero = styled.div`
   height: 100vh;
   background-size: cover;

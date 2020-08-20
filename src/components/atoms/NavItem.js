@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const NavItem = ({children, linkTo, style}) => {
   return (
     <StyledNavItem className='nav-item' style={style}>
@@ -13,7 +13,7 @@ const NavItem = ({children, linkTo, style}) => {
   )
 }
 
-// S T Y L E S
+// 🎨 S T Y L E S
 const StyledNavItem = styled.div`
   a {
     display: flex;

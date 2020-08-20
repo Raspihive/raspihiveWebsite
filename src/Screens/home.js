@@ -1,6 +1,6 @@
 import React from 'react'
 
-// C O M P O N E N T S
+// 🎁 C O M P O N E N T S
 import Page from '../components/atoms/Page'
 import Hero from '../components/sections/Hero'
 import Section from  '../components/atoms/Section'
@@ -13,11 +13,11 @@ import Img from  '../components/atoms/Img'
 import Button from  '../components/atoms/Button'
 import ButtonLink from  '../components/atoms/ButtonLink'
 
-// A S S E T S
+// 📸 A S S E T ST S
 import plug_and_play from '../assets/images/plug_and_play.jpg'
 import doItYourSelf from '../assets/images/doityourself.jpg'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N TN T
 const Home = () => {
 
   // Helper to scroll to a specific section

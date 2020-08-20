@@ -1,6 +1,6 @@
 import React from 'react'
 
-// C O M P O N E N T S
+// 🎁 C O M P O N E N T S
 import Page from '../components/atoms/Page'
 import Section from  '../components/atoms/Section'
 import Container from  '../components/atoms/Container'
@@ -9,7 +9,7 @@ import H2 from  '../components/atoms/H2'
 import P from  '../components/atoms/P'
 import ButtonLink from  '../components/atoms/ButtonLink'
 
-// M A I N   C O M P O N E N T
+// 💫 M A I N   C O M P O N E N T
 const Contribute = () => {
   return (
     <Page>
