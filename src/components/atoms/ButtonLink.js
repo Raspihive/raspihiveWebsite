@@ -4,23 +4,23 @@ import styled from 'styled-components'
 // M A I N   C O M P O N E N T
 const Button = ({
   children, 
-  onClick,
+  href,
+  target = '_blank',
   disabled = false
 }) => {
-
-
   return (
-    <StyledButton 
-      onClick={onClick}
+    <StyledButtonLink
+      href={href}
+      target={target}
       className={`${disabled && 'disabled'}`}
     >
       {children}
-    </StyledButton>
+    </StyledButtonLink>
   )
 }
 
 // S T Y L E S
-const StyledButton = styled.button`
+const StyledButtonLink = styled.a`
   background-color: var(--primary);
   font-size: 16px;
   padding: 10px 20px;
@@ -30,13 +30,8 @@ const StyledButton = styled.button`
   font-weight: 800;
   border: 2px solid rgba(0,0,0,0.15);
   outline: none;
+  text-decoration: none;
   cursor: pointer;
-  
-  a {
-    color: var(--white);
-    text-decoration: none;
-    outline: none;
-  }
   
   &:hover {
     background-color: var(--primary-dark);
