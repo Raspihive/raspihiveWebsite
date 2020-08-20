@@ -19,6 +19,14 @@ const Logo = () => {
 // S T Y L E S
 const StyledLogo = styled.div`
   margin-left: 25px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 40px;
+  }
 `
 
 export default Logo

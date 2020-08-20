@@ -21,6 +21,10 @@ const StyledColumn = styled.div`
   &.center {
     justify-content: center;
   }
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 export default Column

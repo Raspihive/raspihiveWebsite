@@ -14,6 +14,11 @@ const Section = ({children}) => {
 const StyledSection = styled.div`
   max-width: 1200px;
   margin: 0 auto;
+
+  @media (max-width: 1240px) {
+    max-width: 100%;
+    margin: 0 20px;
+  }
 `
 
 export default Section

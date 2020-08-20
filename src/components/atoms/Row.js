@@ -15,7 +15,11 @@ const StyledRow = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 -30px;
+  flex-wrap: nowrap;
   
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
 `
 
 export default Row

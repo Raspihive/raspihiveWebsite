@@ -1,41 +1,38 @@
-import React from 'react';
-import Logo from '../logo';
-import '../App.css';
+import React from 'react'
 
+// C O M P O N E N T S
+import Page from '../components/atoms/Page'
+import Section from  '../components/atoms/Section'
+import Container from  '../components/atoms/Container'
+import H1 from  '../components/atoms/H1'
+import H2 from  '../components/atoms/H2'
+import P from  '../components/atoms/P'
+import ButtonLink from  '../components/atoms/ButtonLink'
 
-
-function Contributescreen() {
+// M A I N   C O M P O N E N T
+const Contribute = () => {
   return (
-   <div >
-      <header className="App-header">
-      </header>
-      <body className="App-body"> 
-      </body>
-      <div className="content-contribute">
-      
-      <p>How can I help make Hive better?
-            Its simply created for the users, by the users. There are no highly paid developers or poorly paid support 
-            personnel on the phones ready to take your call. There are only users who have seen a problem and done their 
-            best to fix it. This means that Hive will always need the contributions of users like you. 
-            How can you get involved?
-      </p>
-
-      <a style={styles.github} target="_blank" href="https://github.com/Cryptec/raspihive">GitHub</a>
-      
-      </div>
-   </div>
-    
-    
-  );
+    <Page>
+      <Section>
+        <Container>
+          <H1>Contribute</H1>
+          <H2>How can I help make Hive better?</H2>
+          <P>
+            Its simply created for the users, by the users. There are no highly paid developers or poorly paid support personnel on the phones ready to take your call. There are only users who have seen a problem and done their best to fix it. This means that Hive will always need the contributions of users like you. 
+            
+          </P>
+          <ButtonLink
+            href="https://github.com/Cryptec/raspihive"
+            style={{marginTop: 15, marginBottom: 30}}
+          >RaspiHive Github</ButtonLink>
+          <H2>How can you get involved?</H2>
+          <P>
+            Lorem ipsum dolor sit amet... 
+          </P>
+        </Container>
+      </Section>
+    </Page>
+  )
 }
-const styles = {};
 
-styles.github = {
-  width: "100%",
-  fontSize: "26px",
-  color:"black",
-  textDecoration: 'none',
-  zIndex:"4",
-
-};
-export default Contributescreen;
+export default Contribute

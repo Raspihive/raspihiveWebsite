@@ -6,13 +6,15 @@ const Button = ({
   children, 
   href,
   target = '_blank',
-  disabled = false
+  disabled = false,
+  style
 }) => {
   return (
     <StyledButtonLink
       href={href}
       target={target}
       className={`${disabled && 'disabled'}`}
+      style={style}
     >
       {children}
     </StyledButtonLink>
@@ -21,6 +23,7 @@ const Button = ({
 
 // S T Y L E S
 const StyledButtonLink = styled.a`
+  display: inline-block;
   background-color: var(--primary);
   font-size: 16px;
   padding: 10px 20px;

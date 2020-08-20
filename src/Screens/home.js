@@ -19,13 +19,13 @@ import doItYourSelf from '../assets/images/doityourself.jpg'
 
 // M A I N   C O M P O N E N T
 const Home = () => {
+
+  // Helper to scroll to a specific section
   const scrollToRef = (ref) => {
     window.scrollTo(0, ref.current.offsetTop - 200)
   }
-
   const buySectionRef = React.useRef(null)
   const learnRef = React.useRef(null)
-
   const onClickBuy = () => {scrollToRef(buySectionRef)}
   const onClickLearn = () => {scrollToRef(learnRef)}
 
@@ -36,6 +36,8 @@ const Home = () => {
         onClickLearn={onClickLearn} 
       />
 
+      {/* Buy Section
+      TODO: should be extracted to components/sections/Buy.js */}
       <Section >
         <div ref={buySectionRef}></div>
         <Container>
@@ -52,6 +54,8 @@ const Home = () => {
         </Container>
       </Section>
 
+      {/* Learn Section
+      TODO: should be extracted to components/sections/Learn.js */}
       <Section>
         <div ref={learnRef}></div>
         <Container>
@@ -73,4 +77,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home

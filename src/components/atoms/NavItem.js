@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 // M A I N   C O M P O N E N T
-const NavItem = ({children, linkTo}) => {
+const NavItem = ({children, linkTo, style}) => {
   return (
-    <StyledNavItem>
+    <StyledNavItem className='nav-item' style={style}>
       <Link to={linkTo}>
         <span>{children}</span>
       </Link>
@@ -19,7 +19,7 @@ const StyledNavItem = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 15px 30px;
     font-size: 16px;
     font-weight: 800;
     text-decoration: none;

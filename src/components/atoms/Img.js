@@ -16,6 +16,10 @@ const StyledImg = styled.img`
   width: 500px;
   border-radius: var(--radius);
   background-color: var(--light-50);
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 export default Img
