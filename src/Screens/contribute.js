@@ -22,9 +22,17 @@ const Contribute = () => {
             
           </P>
           <ButtonLink
-            href="https://github.com/Cryptec/raspihive"
+            href="https://github.com/Raspihive/raspihive"
             style={{marginTop: 15, marginBottom: 30}}
           >RaspiHive Github</ButtonLink>
+          <ButtonLink
+            href="https://docs.raspihive.org"
+            style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
+          >Docs</ButtonLink>
+          <ButtonLink
+            href="https://discord.gg/weV3SfT"
+            style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
+          >Discord</ButtonLink>
           <H2>How can you get involved?</H2>
           <P>
             Lorem ipsum dolor sit amet... 
