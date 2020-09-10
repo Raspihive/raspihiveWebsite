@@ -30,7 +30,7 @@ const Contribute = () => {
             style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
           >Docs</ButtonLink>
           <ButtonLink
-            href="https://discord.gg/weV3SfT"
+            href="https://discord.gg/bZhKUe6"
             style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
           >Discord</ButtonLink>
           <H2>How can you get involved?</H2>
