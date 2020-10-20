@@ -43,9 +43,10 @@ const Home = () => {
         <Container>
           <Row>
             <Column center>
-              <H1>Buy an RaspiHive Plug&Play</H1>
+              <H1>What is RaspiHive?</H1>
               <P>Running an IOTA Node was never easier. Just connect RaspiHive to power and the internet.</P>
-              <Button disabled={true}>Buy (soon)</Button>
+              <ButtonLink disabled={false}
+               href="/about">About</ButtonLink>
             </Column>
             <Column>
               <Img src={plug_and_play}></Img>
@@ -65,7 +66,7 @@ const Home = () => {
             </Column>
             <Column center>
               <H1>Do it yourself</H1>
-              <P>All what you need is a Raspberry PI. YOu can follow our instructions with detailed step by step descriptions and a case which you can print with an 3D printer. Or go creative an build your own RaspiHive with an solar panel or as cluster version. </P>
+              <P>All what you need is a Raspberry PI, and a Screen. You can follow our instructions with detailed step by step descriptions. </P>
               <ButtonLink 
                 href="http://docs.raspihive.org"
               >To the Docs</ButtonLink>

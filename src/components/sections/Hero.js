@@ -20,18 +20,13 @@ const Hero = ({
       <Container>
         <Row>
           <Column>
-            <H1 color="var(--white)">Run your own IOTA Node with RaspiHive</H1>
+            <H1 color="var(--white)">Run your own IOTA Node and more, with RaspiHive</H1>
             <Subtitle>Build your own Raspihive with our 
               <button 
                 onClick={onClickLearn}
                 className='call-to-action-link'
               >Do It Yourself guides </button>
-              . If you just want to get started buy our 
-              <button 
-                onClick={onClickBuy}
-                className='call-to-action-link'
-              >Plug & Play</button>
-              starter pack.</Subtitle>
+            </Subtitle>
             <Button onClick={onClickBuy}>Discover more</Button>
           </Column>
           <Column></Column>

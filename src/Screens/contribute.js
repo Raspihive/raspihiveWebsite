@@ -35,7 +35,7 @@ const Contribute = () => {
           >Discord</ButtonLink>
           <H2>How can you get involved?</H2>
           <P>
-            Lorem ipsum dolor sit amet... 
+            If you want to contribute, feel free to jump in our GitHub repo, or get in touch with us and the community on Discord! 
           </P>
         </Container>
       </Section>
