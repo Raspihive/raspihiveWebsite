@@ -15,7 +15,7 @@ const H1 = ({
 
 // 🎨 S T Y L E S
 const StyledH1 = styled.div`
-  font-size: 62px;
+  font-size: 52px;
   font-weight: 800;
   margin-bottom: 15px;
 `

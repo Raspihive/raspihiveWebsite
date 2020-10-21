@@ -13,9 +13,21 @@ const About = () => {
     <Page>
       <Section>
         <Container>
-          <H1>About Page goes here</H1>
+          <H1>What is RaspiHive?</H1>
+          <br></br>
           <P>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          Its simply created for the users, by the users. There are no highly paid developers or poorly paid support personnel on the phones ready to take your call. 
+          There are only users who have seen a problem and done their best to fix it. 
+          <br></br>
+          <br></br>
+          The goal is, to provide a complete ready-to-go Linux image to install (for best experience with a Raspberry Pi and a touchscreen). 
+          This image provides (depending on the stage of the project) diferrent options to install an IOTA Node, security, Dashboards, and make it accessible. 
+          <br></br>
+          <br></br>
+          sounds great, right? a plug and play all-in-one solution!  
+          <br></br>
+          <br></br>
+
           </P>
         </Container>
       </Section>

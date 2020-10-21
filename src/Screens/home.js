@@ -15,7 +15,7 @@ import ButtonLink from  '../components/atoms/ButtonLink'
 
 // 📸 A S S E T ST S
 import plug_and_play from '../assets/images/plug_and_play.jpg'
-import doItYourSelf from '../assets/images/doityourself.jpg'
+import doItYourSelf from '../assets/images/doityourself1.png'
 
 // 💫 M A I N   C O M P O N E N TN T
 const Home = () => {

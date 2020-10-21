@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 // 📸 A S S E T S
-import logo from '../../assets/logos/unser-logo.svg'
+import logo from '../../assets/logos/headerLogo.svg'
 
 // 💫 M A I N   C O M P O N E N T
 const Logo = () => {
@@ -18,7 +18,7 @@ const Logo = () => {
 
 // 🎨 S T Y L E S
 const StyledLogo = styled.div`
-  margin-left: 25px;
+  margin-left: 10%;
   height: 80px;
   display: flex;
   justify-content: center;

@@ -25,17 +25,18 @@ const Contribute = () => {
             href="https://github.com/Raspihive/raspihive"
             style={{marginTop: 15, marginBottom: 30}}
           >RaspiHive Github</ButtonLink>
-          <ButtonLink
-            href="https://docs.raspihive.org"
-            style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
-          >Docs</ButtonLink>
+    
           <ButtonLink
             href="https://discord.gg/bZhKUe6"
             style={{marginTop: 15, marginBottom: 30, marginLeft: 20}}
           >Discord</ButtonLink>
           <H2>How can you get involved?</H2>
           <P>
-            If you want to contribute, feel free to jump in our GitHub repo, or get in touch with us and the community on Discord! 
+            If you want to contribute, feel free to jump in our GitHub repo, or get in touch with us and the community on Discord! It isn´t necessairy what skills you have. 
+            Developers, designers, writers, illustrators, legal experts or simple enthusiastic people with great ideas and passion are welcome to contribute.
+            <br></br>
+            <br></br>
+            Our main goal is, to build a big community around Hive, to make it even better and better. 
           </P>
         </Container>
       </Section>

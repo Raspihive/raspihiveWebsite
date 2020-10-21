@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="menu">
         <NavItem linkTo="/about">About</NavItem>
         <NavItem linkTo="/contribute">Contribute</NavItem>
-        <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 25}}>Download</ButtonLink>
+        <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 125}}>Download</ButtonLink>
       </div>
 
       {/* Mobile Menu Button */}
@@ -46,7 +46,7 @@ const StyledNavigation = styled.div`
   
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0px;
   z-index: 1;
   height: var(--nav-height);
   width: 100%;
