@@ -11,7 +11,7 @@ const Footer = () => {
     <StyledFooter>
       <div className="FooterStyle">
       <FooterRow>
-      <ImgFooter src={SkelettSchräg}></ImgFooter>
+      <ImgFooter className="skelett" src={SkelettSchräg}></ImgFooter>
       <p className="footer-link">Friends 
       <br></br>
       <br></br>
@@ -59,6 +59,9 @@ const StyledFooter = styled.div`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    .skelett {
+      display: none !important;
+      }
   }
 `
 

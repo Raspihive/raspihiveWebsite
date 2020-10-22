@@ -19,6 +19,14 @@ const StyledRow = styled.div`
   @media (max-width: 900px) {
     flex-wrap: wrap;
   }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+  @media (max-width: 1000px) {
+    .skelett {
+    display: none !important;
+    }
+  }
 `
 
 export default FooterRow

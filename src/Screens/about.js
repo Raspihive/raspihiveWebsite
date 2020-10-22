@@ -29,6 +29,13 @@ const About = () => {
           <br></br>
 
           </P>
+          <H1>What is IOTA?</H1>
+          <br></br>
+          <P>
+          The IOTA network is built to for the Internet of Things,
+          with tamper-proof data, feeless micro transactions and low resource requirements.
+          </P>
+          <br></br>
         </Container>
       </Section>
     </Page>
