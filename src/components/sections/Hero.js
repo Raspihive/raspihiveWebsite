@@ -8,7 +8,8 @@ import Column from '../atoms/Column'
 import H1 from '../atoms/H1'
 import Subtitle from '../atoms/Subtitle'
 import Button from '../atoms/Button'
-import bgImage from '../../assets/images/hero.jpg'
+import bgImage from '../../assets/images/hero.svg'
+import bgImageHover from '../../Images/desk-hover.svg'
 
 // 💫 M A I N   C O M P O N E N T
 const Hero = ({

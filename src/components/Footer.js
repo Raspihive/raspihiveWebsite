@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import FooterRow from  '../components/atoms/footerRow'
+import SkelettSchräg from '../Animation/SkelettSchräg.svg'
+import ImgFooter from  '../components/atoms/imgFooter'
 
 // 💫 M A I N   C O M P O N E N T
 const Footer = () => {
@@ -9,6 +11,7 @@ const Footer = () => {
     <StyledFooter>
       <div className="FooterStyle">
       <FooterRow>
+      <ImgFooter src={SkelettSchräg}></ImgFooter>
       <p className="footer-link">Friends 
       <br></br>
       <br></br>
@@ -44,10 +47,9 @@ const StyledFooter = styled.div`
     color: white;
     font-size: 28px;
     text-decoration: none;
-    padding-left: 20%;
-    padding-right: 5%;
+    padding-left: -20%;
+    padding-right: 10%;
     
-
   }
 
   .FooterStyle {
