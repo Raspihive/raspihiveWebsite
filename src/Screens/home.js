@@ -14,7 +14,7 @@ import Button from  '../components/atoms/Button'
 import ButtonLink from  '../components/atoms/ButtonLink'
 
 // 📸 A S S E T ST S
-import plug_and_play from '../assets/images/plug_and_play.jpg'
+import plug_and_play from '../assets/images/plugandplay.png'
 import doItYourSelf from '../assets/images/doityourself1.png'
 
 // 💫 M A I N   C O M P O N E N TN T
@@ -49,7 +49,7 @@ const Home = () => {
                href="/about">About</ButtonLink>
             </Column>
             <Column>
-              <Img src={plug_and_play}></Img>
+              <Img src={doItYourSelf}></Img>
             </Column>
           </Row>
         </Container>
@@ -62,7 +62,7 @@ const Home = () => {
         <Container>
           <Row>
             <Column>
-              <Img src={doItYourSelf}></Img>
+              <Img src={plug_and_play}></Img>
             </Column>
             <Column center>
               <H1>Do it yourself</H1>
