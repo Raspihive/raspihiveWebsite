@@ -23,6 +23,7 @@ const Navigation = () => {
         <NavItem linkTo="/about">About</NavItem>
         <NavItem linkTo="/contribute">Contribute</NavItem>
         <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 125}}>Download</ButtonLink>
+        <view style={{flex: 0.6}}></view>
       </div>
 
       {/* Mobile Menu Button */}
