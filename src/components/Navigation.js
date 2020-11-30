@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="menu">
         <NavItem linkTo="/about">About</NavItem>
         <NavItem linkTo="/contribute">Contribute</NavItem>
-        <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 125}}>Download</ButtonLink>
+        <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 25}}>Download</ButtonLink>
         <view style={{flex: 0.6}}></view>
       </div>
 
@@ -63,6 +63,8 @@ const StyledNavigation = styled.div`
     height: var(--nav-height);
     display: flex;
     align-items: center;
+    margin-right: 125px
+
   }
   
   button {
@@ -149,6 +151,7 @@ const StyledNavigation = styled.div`
         justify-content: flex-start;
         align-items: center;
         padding-top: 30px;
+        
         
         .nav-item {
           margin-bottom: 30px;

@@ -42,7 +42,7 @@ const Footer = () => {
 // 🎨 S T Y L E S
 const StyledFooter = styled.div`
   flex-direction: row;
-  
+
   .footer-link {
     color: white;
     font-size: 28px;
@@ -56,12 +56,12 @@ const StyledFooter = styled.div`
     background-color: #3B3B3B;
     
   }
-
+  
   @media (max-width: 1000px) {
+
+    .skelett { display: none; }
+
     flex-direction: column;
-    .skelett {
-      display: none !important;
-      }
   }
 `
 

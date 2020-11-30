@@ -6,6 +6,7 @@ import Section from  '../components/atoms/Section'
 import Container from  '../components/atoms/Container'
 import H1 from  '../components/atoms/H1'
 import P from  '../components/atoms/P'
+import '../App.css'
 
 // 💫 M A I N   C O M P O N E N T
 const Download = () => {
@@ -14,14 +15,27 @@ const Download = () => {
       <Section>
         <Container>
           <H1>Download</H1>
+          <br></br>
           <P>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          Download the pre-installed image:  
           </P>
+          <br></br>
+          <br></br>
+          <P>
+            Version 1.0
+          </P>
+          <button id="downloadButton" style={{width: 150, height: 40}}><a href="https://drive.google.com/u/0/uc?export=download&confirm=kLfs&id=1aUw3u1IeNZ4yFEBiWGsmX0aqryzJQOmm">Download</a></button>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </Container>
       </Section>
     </Page>
     
   )
 }
+
 
 export default Download

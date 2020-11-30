@@ -12,13 +12,9 @@ const Img = ({children, src}) => {
 
 // 🎨 S T Y L E S
 const StyledImg = styled.img`
-  height: auto;
-  width: auto;
+  
   border-radius: var(--radius);
 
-  @media (max-width: 900px) {
-    width: 100%;
-  }
 `
 
 export default Img
