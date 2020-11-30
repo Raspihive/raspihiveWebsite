@@ -24,7 +24,7 @@ const Download = () => {
           <P>
             Version 1.0
           </P>
-          <button id="downloadButton" style={{width: 150, height: 40}}><a href="https://drive.google.com/u/0/uc?export=download&confirm=kLfs&id=1aUw3u1IeNZ4yFEBiWGsmX0aqryzJQOmm">Download</a></button>
+          <button id="downloadButton" style={{width: 150, height: 40}}><a href="https://drive.google.com/u/0/uc?export=download&confirm=9uF8&id=1aUw3u1IeNZ4yFEBiWGsmX0aqryzJQOmm">Download</a></button>
           <br></br>
           <br></br>
           <br></br>
