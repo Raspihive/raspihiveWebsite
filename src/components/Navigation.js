@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="menu">
         <NavItem linkTo="/about">About</NavItem>
         <NavItem linkTo="/contribute">Contribute</NavItem>
-        <ButtonLink href='/download' style={{marginLeft: 25, marginRight: 25}}>Download</ButtonLink>
+        <NavItem linkTo='/download' style={{ marginLeft: 25, marginRight: 25, backgroundColor: 'var(--primary)', borderRadius: 50}}>Download</NavItem>
         <view style={{flex: 0.6}}></view>
       </div>
 

@@ -12,6 +12,7 @@ import P from  '../components/atoms/P'
 import Img from  '../components/atoms/Img'
 import Button from  '../components/atoms/Button'
 import ButtonLink from  '../components/atoms/ButtonLink'
+import NavItem from '../components/atoms/NavItem'
 
 // 📸 A S S E T ST S
 import plug_and_play from '../assets/images/plugandplay.png'
@@ -45,8 +46,7 @@ const Home = () => {
             <Column center>
               <H1>What is RaspiHive?</H1>
               <P>Running an IOTA Node was never easier. Just connect RaspiHive to power and the internet.</P>
-              <ButtonLink disabled={false}
-               href="/about">About</ButtonLink>
+              <NavItem linkTo='/about' style={{ marginLeft: 25, marginRight: 25, backgroundColor: 'var(--primary)', borderRadius: 50 }}>About</NavItem>
             </Column>
             <Column>
               <Img src={doItYourSelf}></Img>
