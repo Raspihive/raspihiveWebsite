@@ -22,7 +22,7 @@ const Footer = () => {
       <p className="footer-link">About 
       <br></br>
       <br></br>
-      <a href='/privacypolicy' style={{ color: 'white', textDecoration: 'none', fontSize: 20}}>Privacy Policy</a><br></br></p>
+      <a href='https://raspihive.org/#/privacypolicy' style={{ color: 'white', textDecoration: 'none', fontSize: 20}}>Privacy Policy</a><br></br></p>
       
       <p className="footer-link">Community
       <br></br>
