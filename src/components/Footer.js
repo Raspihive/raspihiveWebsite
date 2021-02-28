@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import FooterRow from  '../components/atoms/footerRow'
-import SkelettSchräg from '../Animation/SkelettSchräg.svg'
-import ImgFooter from  '../components/atoms/imgFooter'
+
 
 // 💫 M A I N   C O M P O N E N T
 const Footer = () => {
