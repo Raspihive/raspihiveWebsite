@@ -22,6 +22,12 @@ const Download = () => {
           <br></br>
           <br></br>
           <P>
+            Version 2.0 | 2021-02-28 (recommended)
+          </P>
+          <button id="downloadButton" style={{ width: 150, height: 40 }}><a href="https://drive.google.com/u/0/uc?id=1F6y7l_AqkaoPYWtxgWUVmD9wBqTEo00R&export=download">Download</a></button>
+          <br></br>
+          <br></br>
+          <P>
             Version 1.0 | 2020-11-30
           </P>
           <button id="downloadButton" style={{ width: 150, height: 40 }}><a href="https://drive.google.com/u/0/uc?export=download&confirm=KNZ1&id=1Zhg4dCleyfyMNd4Hy2xtmO5jwIEryqyx">Download</a></button>

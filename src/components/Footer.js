@@ -11,7 +11,6 @@ const Footer = () => {
     <StyledFooter>
       <div className="FooterStyle">
       <FooterRow>
-      <ImgFooter className="skelett" src={SkelettSchräg}></ImgFooter>
       <p className="footer-link">Friends 
       <br></br>
       <br></br>
@@ -47,8 +46,8 @@ const StyledFooter = styled.div`
     color: white;
     font-size: 28px;
     text-decoration: none;
-    padding-left: -20%;
-    padding-right: 10%;
+    padding-left: 10vw;
+    padding-right: 10vw;
     
   }
 
